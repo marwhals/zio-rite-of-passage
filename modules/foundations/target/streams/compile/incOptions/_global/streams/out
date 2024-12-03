@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/target/scala-3.3.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/target/scala-3.3.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$Connection$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Playground$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Playground.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$$anon$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$Connection.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$$anon$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool$$anon$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$$anon$6.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$Connection$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService$$anon$5.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Playground$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Playground.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$$anon$7.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$Connection.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserDatabase.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$User$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$EmailService.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$User.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$$anon$9.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$ConnectionPool$$anon$8.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$UserSubscription$$anon$4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIORecap$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/target/scala-3.3.0/classes.bak[0m

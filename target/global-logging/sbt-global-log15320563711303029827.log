@@ -1,4 +1,7 @@
-[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: foundations / Compile / compile, Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/target/scala-3.3.0/classes ...[0m
 [0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/TapirDemo.scala:52:32 [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m52 |[0m  .in(jsonBody[CreateJobRequest])[0m
 [0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                ^[0m[0m
@@ -52,4 +55,6 @@
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0mBut no implicit values were found that match type sttp.tapir.generic.Derived[sttp.tapir.Schema[com.rockthejvm.Job]].[0m
 [0m[[0m[31merror[0m] [0m[0mthree errors found[0m
-[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock.[0m
+[0m[[0m[31merror[0m] [0m[0m(foundations / Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 3 Dec 2024, 17:28:18[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

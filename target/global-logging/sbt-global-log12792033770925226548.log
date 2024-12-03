@@ -1,4 +1,7 @@
-[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: foundations / Compile / compile, Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/target/scala-3.3.0/classes ...[0m
 [0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:15:22 [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    JobRepositoryLive.layer,[0m
 [0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
@@ -18,4 +21,7 @@
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
-[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(foundations / Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed 3 Dec 2024, 19:09:18[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

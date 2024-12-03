@@ -5,6 +5,7 @@
     <output-test url="file://$MODULE_DIR$/../../modules/foundations/target/scala-3.3.0/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../modules/foundations">
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/foundations/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../modules/foundations/src/main/scala" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../modules/foundations/target" />
     </content>

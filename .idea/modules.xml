@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/foundations.iml" filepath="$PROJECT_DIR$/.idea/modules/foundations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zio-rite-of-passage.iml" filepath="$PROJECT_DIR$/.idea/modules/zio-rite-of-passage.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zio-rite-of-passage-build.iml" filepath="$PROJECT_DIR$/.idea/modules/zio-rite-of-passage-build.iml" />
     </modules>

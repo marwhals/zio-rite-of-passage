@@ -1,21 +1,39 @@
 [0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock ...[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:15:22 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    JobRepositoryLive.layer,[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue layer is not a member of object com.rockthejvm.JobRepositoryLive, but could be made available as an extension method.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0mOne of the following imports might make progress towards fixing the problem:[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import io.getquill.autoQuote[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import izumi.reflect.dottyreflection.ReflectionUtil.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  reflectiveUncheckedNonOverloadedSelectable[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import sourcecode.Text.generate[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E050] Type Error: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:82:58 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m82 |[0m      ZIO.service[Quill.Postgres[[35mSnakeCase[0m]].map([36mquill[0m => JobRepositoryLive(quill))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                          ^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[33mobject[0m [35mJobRepositoryLive[0m in [33mclass[0m [35mJobRepositoryLive[0m does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:48:8 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m48 |[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m    ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query (compiled in 68ms): INSERT INTO jobs (title,url,company) VALUES (?, ?, ?) RETURNING id, title, url, company[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m49 |[0m      query[[35mJob[0m][0m
+[0m[[0m[0minfo[0m] [0m[0m[34m50 |[0m        .insertValue(lift(job))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m51 |[0m        .returning([36mj[0m => j)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m52 |[0m    }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:56:19 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m56 |[0m    updated <- run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m               ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query (compiled in 21ms): UPDATE jobs AS x3 SET title = ?, url = ?, company = ? WHERE x3.id = ? RETURNING id, title, url, company[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m57 |[0m      query[Job][0m
+[0m[[0m[0minfo[0m] [0m[0m[34m58 |[0m        .filter(_.id == lift(id))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m59 |[0m        .updateValue(lift(op(current)))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m60 |[0m        .returning(j => j)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m61 |[0m    }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:65:8 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m65 |[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m    ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query (compiled in 4ms): DELETE FROM jobs AS x4 WHERE x4.id = ? RETURNING id, title, url, company[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m66 |[0m      query[[35mJob[0m][0m
+[0m[[0m[0minfo[0m] [0m[0m[34m67 |[0m        .filter(_.id == lift(id))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m68 |[0m        .delete[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m69 |[0m        .returning([36mj[0m => j)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m70 |[0m    }[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:73:8 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m73 |[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m    ^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query (compiled in 28ms): SELECT x5.id, x5.title, x5.url, x5.company FROM jobs x5 WHERE x5.id = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m74 |[0m      query[[35mJob[0m][0m
+[0m[[0m[0minfo[0m] [0m[0m[34m75 |[0m        .filter(_.id == lift(id))[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m76 |[0m    }.map(_.headOption)[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m-- Info: /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/scala/com/rockthejvm/QuillDemo.scala:78:32 [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m78 |[0m  [33mdef[0m [36mget[0m: [35mTask[0m[[35mList[0m[[35mJob[0m]] = run(query[[35mJob[0m])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m[34m   |[0m                             ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34m   |[0mQuill Query (compiled in 2ms): SELECT x.id, x.title, x.url, x.company FROM jobs x[0m
 [0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/project/target/.sbt-compilation-infos/foundations-compile/.sbt-idea-lock.[0m

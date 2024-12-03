@@ -1,1 +1,1 @@
-[[{},{}],{}]
+[[{"${BASE}/modules/foundations/src/main/resources/application.conf":["${BASE}/modules/foundations/target/scala-3.3.0/classes/application.conf"]},{"${BASE}/modules/foundations/target/scala-3.3.0/classes/application.conf":["${BASE}/modules/foundations/src/main/resources/application.conf"]}],{"${BASE}/modules/foundations/src/main/resources/application.conf":{"file":"file:///Users/marjanmubarok/Documents/Rock_The_JVM_Projects/zio-project/zio-rite-of-passage/modules/foundations/src/main/resources/application.conf","lastModified":1733253325026}}]
